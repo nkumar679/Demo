@@ -19,9 +19,9 @@ import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.RequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
-import com.altimetic.stock.controller.StockController;
-import com.altimetic.stock.entity.Stock;
-import com.altimetic.stock.repository.StockRepository;
+import com.altimetic.apidemo.controller.StockController;
+import com.altimetic.apidemo.entity.Stock;
+import com.altimetic.apidemo.repository.StockRepository;
 
 @WebMvcTest(StockController.class)
 class StockQuoteApiApplicationTests {

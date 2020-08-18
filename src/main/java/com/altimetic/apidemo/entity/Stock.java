@@ -1,4 +1,4 @@
-package com.altimetic.stock.entity;
+package com.altimetic.apidemo.entity;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

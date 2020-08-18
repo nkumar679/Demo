@@ -1,4 +1,4 @@
-package com.altimetic.stock.controller;
+package com.altimetic.apidemo.controller;
 
 import java.util.Arrays;
 import java.util.List;
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.altimetic.stock.entity.Stock;
-import com.altimetic.stock.repository.StockRepository;
+import com.altimetic.apidemo.entity.Stock;
+import com.altimetic.apidemo.repository.StockRepository;
 
 @RestController
 @Validated 
